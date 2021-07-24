@@ -1,0 +1,36 @@
+.flex{
+    display: flex;
+    }
+    
+    .justify-around{
+        justify-content: space-around;
+    }
+    
+    .justify-between{
+        justify-content: space-between;
+    }
+    
+    .aic{
+        align-items: center;
+    }
+    .cursor-p{
+        cursor: pointer;
+    }
+    .mt10{
+        margin-top:10px ;
+    }
+    .mt30{
+        margin-top:30px ;
+    }
+    
+    .center-abs{
+        position: absolute;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0
+    }
+    .h-100vh{
+        min-height: 100vh;
+    }
+    
