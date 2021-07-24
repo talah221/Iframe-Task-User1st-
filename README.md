@@ -4,15 +4,14 @@ To run this app, run this code at console / with Scripty once you are in
 
 Code is:
 ```
-
-let root = document.querySelector(".cat_view_wrapper_right")
+const root = document.querySelector("body")
 let iframe = document.createElement('iframe')
 iframe.setAttribute("id", "search-iframe");
 
 iframe.src="http://localhost:8080"
-iframe.style="position:fixed; min-height:600px; top:100px; z-index:10"
+iframe.style="position:fixed; min-height:600px; top:100px; z-index:99999999; border:none;"
 iframe.onload = ()=>{
-let images = document.querySelectorAll('img')
+const images = document.querySelectorAll('img')
 let imgs = Object.values(images)
 
 imgs = [...images]
